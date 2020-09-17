@@ -10,6 +10,15 @@
 
 - View the live version [HERE](https://kyle-tracker.herokuapp.com/)
 
+## Quote Object Properties:
+
+- author, achievement, source, sitation, year, tags
+
+## Features:
+
+- Quotes automatically refresh at regular intervals (10 seconds)
+- Background color changes to a random color each time the quote refreshes
+
 ## Built With
 
 - JavaScript

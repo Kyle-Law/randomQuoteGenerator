@@ -8,6 +8,7 @@ const quotes = [
     quote:
       "The ability to work hard for days on end without losing focus is a talent. The ability to keep absorbing new information after many hours of study is a talent",
     source: "Garry Kasparov",
+    achievement: "former World Chess Champion",
     citation: "How Life Imitates Chess",
     year: "2001",
     tags: "chess",
@@ -15,6 +16,7 @@ const quotes = [
   {
     quote:
       "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+    achievement: "Software Developers",
     source: "Brian W. Kernighan and P. J. Plauger",
     citation: "The Elements of Programming Style.",
     year: "1978",
@@ -23,6 +25,7 @@ const quotes = [
   {
     quote:
       "Programming is not a zero-sum game. Teaching something to a fellow programmer doesn’t take it away from you. I’m happy to share what I can, because I’m in it for the love of programming. The Ferraris are just gravy, honest!",
+    achievement: "Software Developer",
     source: "John Carmack",
     citation: "Graphics Programming Black Book",
     year: "1997",
@@ -31,6 +34,7 @@ const quotes = [
   {
     quote:
       "Trying to outsmart a compiler defeats much of the purpose of using one.",
+    achievement: "Software Developer",
     source: "Kernighan and Plauger",
     citation: "The Elements of Programming Style",
     year: "1978",
@@ -39,6 +43,7 @@ const quotes = [
   {
     quote:
       "If you want a product with certain characteristics, you must ensure that the team has those characteristics before the product’s development.",
+    achievement: "Software Developer",
     source: "Jim McCarthy and Michele McCarthy",
     citation: "Software for your Head",
     year: "2002",
@@ -85,7 +90,7 @@ function printQuote() {
   document.querySelector(".quote").textContent = quoteObj.quote;
   document.querySelector(
     ".source"
-  ).innerHTML = `${quoteObj.source}<span class="citation">${quoteObj.citation}</span><span class="year">${quoteObj.year}</span><span class="tags"> (${quoteObj.tags})</span>`;
+  ).innerHTML = `${quoteObj.source} - <span class="achievement">${quoteObj.achievement}</span><span class="citation">${quoteObj.citation}</span><span class="year">${quoteObj.year}</span><span class="tags"> (${quoteObj.tags})</span>`;
   randomBodyColor();
 }
 
