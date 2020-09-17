@@ -12,7 +12,7 @@
 
 ## Quote Object Properties:
 
-- author, achievement, source, sitation, year, tags
+- author, achievement, source, citation, year, tags
 
 ## Features:
 
