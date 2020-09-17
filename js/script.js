@@ -70,7 +70,7 @@ function randomBodyColor() {
   const b = Math.floor(Math.random() * 256);
   const bgColor = `rgb(${r},${g},${b})`;
 
-  document.body.style.background = bgColor;
+  document.body.style.backgroundColor = bgColor;
 }
 
 /***
@@ -85,7 +85,7 @@ function printQuote() {
   document.querySelector(".quote").textContent = quoteObj.quote;
   document.querySelector(
     ".source"
-  ).innerHTML = `${quoteObj.source}<span class="citation">${quoteObj.citation}</span><span class="year">${quoteObj.year}</span><span class="tags"> ${quoteObj.tags}</span>`;
+  ).innerHTML = `${quoteObj.source}<span class="citation">${quoteObj.citation}</span><span class="year">${quoteObj.year}</span><span class="tags"> (${quoteObj.tags})</span>`;
   randomBodyColor();
 }
 
