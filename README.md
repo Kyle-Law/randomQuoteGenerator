@@ -1,4 +1,4 @@
-# Portfolio Tracker
+# Random Quote Generator
 
 > A Simple Random Quote Generator Web App.
 
@@ -8,7 +8,7 @@
 
 ## Presentations
 
-- View the live version [HERE](https://kyle-tracker.herokuapp.com/)
+- View the live version [HERE](https://rawcdn.githack.com/Kyle-Law/randomQuoteGenerator/c74250749ecd6334318e36651a6c596462f8335c/index.html)
 
 ## Quote Object Properties:
 
